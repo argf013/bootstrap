@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+.nav_tardis {
+    /* background-color: #D7E5E5; */
+    font-family: Quicksand!important;
+    font-weight: 700;
+    color: #0B152E!important;
+    font-size: 25.189pt!important;
+    padding-left: 1cm;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.navbar-text {
+    padding-right: 1cm;
+}
+
+.toggler_tardis {
+    border: none!important;
+    color: #0B152E!important;
+}
+
+.linked_ {
+    color: #0B152E!important;
+    font-size: 15pt!important;
+}
+
+.linked_:hover {
+    color: #808080!important;
+}
+
+.allcont {
+    margin-top: 4rem;
+}
+
+.situkik {
+    width: 30rem;
+    border-radius: 25px;
+    animation: fadeInLeft;
+    animation-duration: 3.5s!important;
+    /* transition-duration: 2s; */
+}
+
+/* .situkik:hover {
+    transform: scale(1.2);
+} */
+
+.liness {
+    margin-right: 30em;
+    height: 0.125cm;
+    width: 2.905cm;
+    background-color: #D7E5E5;
+    display: inline-block;
+    border-radius: 1em;
+    transition-duration: 2s;
+}
+
+.liness:hover {
+    transform: rotate(1080deg);
+}
+
+.arfa {
+    margin-top: 1.5cm;
+    font-family: Quicksand!important;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    color: #0B152E!important;
+}
+
+.desc {
+    margin-top: 1rem;
+    font-family: Quicksand!important;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0B152E;
+    text-align: left;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s!important; /* don't forget to set a duration! */
+}
+
+.myBtn {
+    margin-top: 1em;
+    border-style: none;
+    width: 3cm;
+    height: 1.2cm;
+    font-size: 12pt;
+    font-family: Quicksand;
+    font-weight: bold;
+    border-radius: 2em;
+    background-color: #D7E5E5;
+    color: #0B152E;
+}
+
+.myBtn:hover{
+    background-color: #808080;
+    color: #D7E5E5;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    font-family: Quicksand!important;
+    font-size: 1em;
+    font-weight: bold;
+    color: #0B152E;
+}
+
+@media only screen and (max-width: 1282px) {
+    footer{
+        bottom:0;
+        left:0;
+        width: 100%;
+        font-family: Quicksand!important;
+        font-size: 1em;
+        font-weight: bold;
+        color: #0B152E;
+    }
+    .situkik {
+        width: 18rem;
+    }
+
+    .arfa {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .liness {
+        margin-right: 0;
+    }
+
+    .desc {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .situkik {
+        width: 20rem;
+    }
+
+    .arfa {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .liness {
+        margin-right: 0;
+    }
+
+    .desc {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .situkik {
+        width: 12rem;
+    }
+
+    .arfa {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .liness {
+        margin-right: 0;
+    }
+
+    .desc {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .situkik {
+        width: 16rem;
+    }
+
+    .nav_tardis {
+        font-size: 17pt!important;
+        padding-left: 1em;
+    }
+
+    .arfa {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .liness {
+        margin-right: 0;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    footer {
+        position:relative;
+        bottom:0;
+        left:0;
+        width: 100%;
+        font-family: Quicksand!important;
+        font-size: 1em;
+        font-weight: bold;
+        color: #0B152E;
+    }
+
+  }
+
+  /* @media only screen and (max-width: 376px) {
+
+    .situkik {
+        width: 12rem;
+    }
+
+    .nav_tardis {
+        color: wheat;
+    }
+} */
